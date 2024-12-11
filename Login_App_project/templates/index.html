@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Flask Microweb App: deployment testing</title>
+    <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+    <h1>Welcome to the Flask Microweb App</h1>
+    <h2>Accessed from IP: {{ request.remote_addr }}</h2>
+    <h2>Current Date and Time: {{ datetime_now }}</h2>
+    <ul>
+        <li><a href="/account">Account Page</a></li>
+        <li><a href="/login">Login Page</a></li>
+        <li><a href="/map">Map Page</a></li>
+        <li><a href="/time">Time Page</a></li>
+    </ul>
+</body>
+</html>
